@@ -1,13 +1,13 @@
-# 퇴사 예측 신경망 모델
+# 👀퇴사 예측 신경망 모델
 
 <img src="https://github.com/maango97/hr-analytics/blob/main/%EB%B0%9C%ED%91%9C%20%ED%91%9C%EC%A7%80.png" width="600" height="320"/>
 
-- 기간 : 2024.10(3인)
+- 기간 : 2024.10 (3인)
 - [데이터 출처(Kaggle)](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
 - [발표 자료 PDF](https://github.com/maango97/hr-analytics/blob/main/%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%20%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD.pdf)
 
 
-## 분석 개요
+## 📋분석 개요
 
 
 - **문제 정의**
@@ -33,7 +33,7 @@
   
   - **SHAP 분석**을 활용하여 예측에 기여하는 정도가 큰 변수를 찾고 그에 맞는 활용 전략 수립
 
-- **WHY?Moments**
+- **WHY❓ Moments**
   
   - 신경망 모델을 저장하고 로드 후 실행하면 정확도가 올라가는 현상, 왜?
   
@@ -44,6 +44,6 @@
     - 신경망이 학습 도중 **local minimum**에 빠졌다가 탈출하는 과정에서 loss 값이 잠시 증가했기 때문!
   
 
-## 환경
+## ⚙️환경
 
 - Anaconda - Jupyter Notebook
