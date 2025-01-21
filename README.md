@@ -1,6 +1,6 @@
 # 퇴사 예측 신경망 모델
 
-![Image](https://github.com/maango97/hr-analytics/blob/main/%EB%B0%9C%ED%91%9C%20%ED%91%9C%EC%A7%80.png)
+<img src="[https://github.com/maango97/hr-analytics/blob/main/%EB%B0%9C%ED%91%9C%20%ED%91%9C%EC%A7%80.png]" width="900" height="480"/>
 
 - 기간 : 2024.10(3인)
 - [데이터 출처(Kaggle)](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
