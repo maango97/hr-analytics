@@ -2,7 +2,7 @@
 
 
 - 기간 : 2024.10(3인)
-- [데이터 출처(Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
+- [데이터 출처(Kaggle)](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
 - [발표 자료 PDF](https://github.com/maango97/hr-analytics/blob/main/%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%20%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD.pdf)
 
 
