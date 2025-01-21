@@ -1,0 +1,55 @@
+```python
+import pandas as pd
+
+# 데이터 불러오기
+df = pd.read_csv('c:\\data\\WA_Fn-UseC_-HR-Employee-Attrition.csv')
+
+# 삭제할 컬럼들 목록
+columns_to_drop = ['EmployeeCount', 'Over18', 'StandardHours', 'DailyRate', 'HourlyRate', 'MonthlyRate']
+
+# 지정한 컬럼들 삭제
+df = df.drop(columns=columns_to_drop, errors='ignore')
+```
+의미가 없거나 서로 겹치는 컬럼 제거(시급, 일급, 월급)
+
+```python
+# Attrition - Yes를 1, No를 2로 인코딩
+df['Attrition'] = df['Attrition'].map({'Yes': 1, 'No': 0})
+
+# BusinessTravel - Non-Travel, Travel_Rarely, Travel_Frequently를 1, 2, 3으로 인코딩
+df['BusinessTravel'] = df['BusinessTravel'].map({'Non-Travel': 1, 'Travel_Rarely': 2, 'Travel_Frequently': 3})
+
+# Department - Sales, Research & Development, Human Resources를 1, 2, 3으로 인코딩
+df['Department'] = df['Department'].map({'Sales': 1, 'Research & Development': 2, 'Human Resources': 3})
+
+# JobRole - 각각 직무를 1~9로 인코딩 
+df['JobRole'] = df['JobRole'].map({
+    'Sales Executive': 1,
+    'Research Scientist': 2,
+    'Laboratory Technician': 3,
+    'Manufacturing Director': 4,
+    'Healthcare Representative': 5,
+    'Manager': 6,
+    'Sales Representative': 7,
+    'Research Director': 8,
+    'Human Resources': 9
+})
+
+# MaritalStatus - Single을 1, Married를 2, Divorced를 3으로 인코딩
+df['MaritalStatus'] = df['MaritalStatus'].map({
+    'Single': 1,
+    'Married': 2,
+    'Divorced': 3
+})
+
+# OverTime - Yes를 1, No를 2로 인코딩
+df['OverTime'] = df['OverTime'].map({'Yes': 1, 'No': 0})
+
+# Gender - Female을 1, Male을 0으로 인코딩
+df['Gender'] = df['Gender'].map({'Female': 1, 'Male': 0})
+
+# EducationField - 1. Other, 2. Life Sciences, 3.Marketing, 4.Technical Degree, 5. Human Resources, 6.Medical으로 인코딩
+df['EducationField'] = df['EducationField'].map({'Other': 1, 'Life Sciences': 2,
+                                                 'Marketing': 3, 'Technical Degree': 4,
+                                                 'Human Resources': 5, 'Medical': 6})
+```
