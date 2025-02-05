@@ -1,6 +1,6 @@
 # 👀퇴사 여부 분류 모델
 
-<img src = "https://github.com/maango97/hr-analytics/blob/main/%EB%B0%9C%ED%91%9C%20%ED%91%9C%EC%A7%80.png">
+<img src = "https://github.com/maango97/hr-analytics/blob/main/%EB%B0%9C%ED%91%9C%20%ED%91%9C%EC%A7%80.png" width="600" height="320"/>
 
 - 기간 : 2024.10 (3인)
 - [데이터 출처(Kaggle)](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
